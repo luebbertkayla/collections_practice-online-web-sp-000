@@ -37,6 +37,6 @@ end
 # Returns all the strings in the array that starts with a
 def find_a(array)
   array.find do |word|
-    word.start_with?(a)
+    word.start_with?("a")
   end
 end
