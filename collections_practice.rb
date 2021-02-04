@@ -48,6 +48,13 @@ end
 
 # Adds an s to each word in the array ecvept for the second element
 def add_s
-  
+  array.each_with_index.collect do |string, index|
+    if index == 1
+      string
+    else
+      string << "s"
+    end
+  end
 end
+
 
