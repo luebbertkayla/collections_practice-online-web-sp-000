@@ -43,5 +43,5 @@ end
 
 # Adds together all of the integers in the array and returns their second_num
 def sum_array(integers)
-  
+  integers.inject 
 end
