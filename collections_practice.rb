@@ -32,5 +32,4 @@ def kesha_maker(array)
     kesha << word_array.join
   end
   kesha
-  end
 end
