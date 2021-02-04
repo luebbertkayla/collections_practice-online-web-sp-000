@@ -23,7 +23,7 @@ def reverse_array(integers)
   integers.reverse
 end
 
-#Replaces third character in each string with a $ sign 
+# Replaces third character in each string with a $ sign 
 def kesha_maker(array)
   kesha = []
   array.each do |word|
