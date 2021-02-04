@@ -47,7 +47,7 @@ def sum_array(integers)
 end
 
 # Adds an s to each word in the array ecvept for the second element
-def add_s
+def add_s(array)
   array.each_with_index.collect do |string, index|
     if index == 1
       string
